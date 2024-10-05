@@ -1,6 +1,8 @@
 # Injector de DLL para Windows
 
-Un potente inyector de DLL para Windows, basado en la [biblioteca Blackbone](https://github.com/DarthTon/Blackbone).
+Un potente inyector de DLL para Windows, basado en:
+
+![lblack](https://github.com/DarthTon/Blackbone/workflows/Driver/badge.svg?branch=master)
 
 ---
 
