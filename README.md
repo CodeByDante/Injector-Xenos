@@ -1,36 +1,34 @@
-Xenos
-=====
+# Injector de DLL para Windows
 
-Windows dll injector. Based on Blackbone library - https://github.com/DarthTon/Blackbone
+Un potente inyector de DLL para Windows, basado en la [biblioteca Blackbone](https://github.com/DarthTon/Blackbone).
 
-## Features ##
+---
 
-- Supports x86 and x64 processes and modules
-- Kernel-mode injection feature (driver required)
-- Manual map of kernel drivers (driver required)
-- Injection of pure managed images without proxy dll
-- Windows 7 cross-session and cross-desktop injection
-- Injection into native processes (those having only ntdll loaded)
-- Calling custom initialization routine after injection
-- Unlinking module after injection
-- Injection using thread hijacking
-- Injection of x64 images into WOW64 process
-- Image manual mapping
-- Injection profiles
+## Características
 
-Manual map features:
-- Relocations, import, delayed import, bound import
-- Hiding allocated image memory (driver required)
-- Static TLS and TLS callbacks
-- Security cookie
-- Image manifests and SxS
-- Make module visible to GetModuleHandle, GetProcAddress, etc.
-- Support for exceptions in private memory under DEP
-- C++/CLI images are supported (use 'Add loader reference' in this case)
+- **Soporta procesos y módulos x86 y x64**
+- **Función de inyección en modo kernel** (se requiere controlador)
+- **Mapa manual de controladores del kernel** (se requiere controlador)
+- **Inyección de imágenes administradas puras sin DLL proxy**
+- **Inyección en sesiones y escritorios cruzados en Windows 7**
+- **Inyección en procesos nativos** (aquellos que solo tienen cargado ntdll)
+- **Llamada a una rutina de inicialización personalizada después de la inyección**
+- **Desvinculación del módulo después de la inyección**
+- **Inyección usando secuestro de hilos**
+- **Inyección de imágenes x64 en procesos WOW64**
+- **Mapeo manual de imágenes**
 
-Supported OS: Win7 - Win10 x64
+### Funciones de Mapa Manual
 
-## License ##
-Xenos is licensed under the MIT License. Dependencies are under their respective licenses.
+- **Relocaciones, importación, importación retrasada, importación vinculada**
+- **Ocultamiento de la memoria de imagen asignada** (se requiere controlador)
+- **TLS estático y callbacks de TLS**
+- **Cookie de seguridad**
+- **Manifiestos de imagen y SxS**
+- **Hacer el módulo visible para GetModuleHandle, GetProcAddress, etc.**
+- **Soporte para excepciones en memoria privada bajo DEP**
+- **Imágenes C++/CLI son soportadas** (usa 'Agregar referencia de cargador' en este caso)
 
-[![Build status](https://ci.appveyor.com/api/projects/status/eu6lpbla89gjgy5m?svg=true)](https://ci.appveyor.com/project/DarthTon/xenos)
+### Sistemas Operativos Soportados
+
+- **Windows 7 - Windows 10 x64**
