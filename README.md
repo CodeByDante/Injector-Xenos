@@ -5,6 +5,8 @@ Un potente inyector de DLL para Windows, basado en la libreria **Blackbone**
 ![libreria](https://github.com/DarthTon/Blackbone/workflows/Library/badge.svg?branch=master)
 
 ---
+![Captura de pantalla (83)](https://github.com/user-attachments/assets/6828bb18-ed28-4586-a77b-bcf1c82c3487)
+
 
 ## Características
 
